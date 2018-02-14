@@ -1,0 +1,9 @@
+---
+applications:
+- name: fortuneui
+  random-route: true
+  memory: 512M
+  env:
+    ASPNETCORE_ENVIRONMENT: Development
+  services:
+    - myDiscoveryService
